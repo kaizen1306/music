@@ -8,14 +8,14 @@ load_dotenv()
 
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "27883552"))
-API_HASH = getenv("API_HASH", "03e8a15853d2aa580c52aea314d26711")
+API_ID = int(getenv("API_ID", "23519683"))
+API_HASH = getenv("API_HASH", "94dbb8ff00f6b9af3c0f4a4792d3a622")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7381889815:AAGj4XbtsjCfeUfunCcE8q4mtgjVtHvYhaI")
+BOT_TOKEN = getenv("BOT_TOKEN", "7733807739:AAHxBiiuTEWprYf0HSnXnr9y_NSWdvyiHkc")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Pensixmusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "kaijenmusicbot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pakeya2:userbot@cluster0.vva0b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -52,11 +52,11 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002869486987"))
+LOGGER_ID = int(getenv("LOGGER_ID", "--1002864024582"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "8107432436").split())
+    map(int, getenv("OWNER_ID", "1966835043").split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -76,7 +76,7 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/kaizenxpensicodex"
+    "SUPPORT_CHANNEL", "https://t.me/kaijen_store"
 )  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/kaijensupport"
@@ -169,12 +169,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/oi0758.jpg",
+    "https://files.catbox.moe/7lxuma.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/oi0758.jpg",
+    "https://files.catbox.moe/7lxuma.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
